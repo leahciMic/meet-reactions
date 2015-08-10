@@ -1,0 +1,17 @@
+html
+  head
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js")
+    link(href="styles/index.css", rel="stylesheet")
+    script(src="js/index.js")
+    title Meet reactions
+    body
+      h1 Meet reactions
+      div.container
+        p.step-1
+          input#query(type="text", placeholder="Search for a video")
+        p.step-2
+          input#room(type="text", placeholder="Enter meet.tokbox.com room name")
+        p.step-3
+          input(type="button", value="Play")#play
