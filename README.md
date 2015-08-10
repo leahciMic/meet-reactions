@@ -15,3 +15,10 @@ In `lib/player.js` you'll see `var tbmedia = require('../../tbmedia-module/tbmed
 to your version of the built tbmedia module.
 
 
+## Run
+
+```sh
+node index.js
+```
+
+It will run on port 5000, so head to http://localhost:5000 
