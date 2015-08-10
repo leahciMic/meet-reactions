@@ -14,6 +14,10 @@ was only able to compile it with node 0.10.x).
 In `lib/player.js` you'll see `var tbmedia = require('../../tbmedia-module/tbmedia.js');`. Change this so it points
 to your version of the built tbmedia module.
 
+## Get an API key for YouTube
+
+Head to the Google developer console and create an application and authorize YouTube's data API and create a key. Place
+the key in the environment variable `YOUTUBE_KEY`.
 
 ## Run
 
