@@ -5,8 +5,8 @@ var youtubeSearch = require('youtube-search');
 
 var opts = {
   maxResults: 10,
-  key: 'AIzaSyDxe7puE8AQWkDUruzdQOOvbObcI9fTTCQ'
-}
+  key: process.env.YOUTUBE_KEY 
+};
 
 router.use(bodyParser.json());
 
